@@ -23,6 +23,10 @@ library does generate and enqueue optimized OpenCL kernels, relieving
 the user from the task of writing, optimizing and maintaining kernel
 code themselves.
 
+
+## clBLAS update notes 09/2016
+- Added support for generating Android library
+
 ## clBLAS update notes 09/2015
 
 - Introducing [AutoGemm](http://github.com/clMathLibraries/clBLAS/wiki/AutoGemm)
@@ -194,6 +198,9 @@ The simple example below shows how to use clBLAS to compute an OpenCL accelerate
 
 ### Library for Mac OSX
 *  Recommended to generate Unix makefiles with cmake
+
+### Library for Android
+*  Recommended to compile with Android-cmake and Android NDK
 
 ### Test infrastructure
 *  Googletest v1.6
